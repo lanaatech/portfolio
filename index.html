@@ -29,7 +29,7 @@
 
         <section id="inicio" class="inicio-sessao" data-aos="fade-up">
             <h1>Olá, eu sou a <span>Ilana</span><br>Desenvolvedora Full Stack.</h1>
-            <a href="#contato" class="btn">Click para Saber Mais</a>
+            <a href="#sobre" class="btn">Click para Saber Mais</a>
         </section>
 
         <section id="sobre">
@@ -62,61 +62,185 @@
             </div>
         </section>
 
-        <section id="servicos" class="servicos-sessao">
-            <h2 data-aos="fade-up">Meus Serviços</h2>
-            <div class="servicos-grade">
-                <div class="servico-card" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icone-vermelho"></div>
-                    <h4>Desenvolvimento Web</h4>
-                    <p>Sites modernos e escaláveis para seu negócio.</p>
-                </div>
-                <div class="servico-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="icone-vermelho"></div>
-                    <h4>UI/UX Design</h4>
-                    <p>Layouts intuitivos focados na conversão.</p>
-                </div>
-                <div class="servico-card" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="icone-vermelho"></div>
-                    <h4>Design Responsivo</h4>
-                    <p>Experiência perfeita em qualquer dispositivo.</p>
-                </div>
-                <div class="servico-card" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="icone-vermelho"></div>
-                    <h4>Full Stack</h4>
-                    <p>Soluções ponta a ponta, do banco ao visual.</p>
-                </div>
-            </div>
-        </section>
-
         <section id="projetos" class="portfolio-projetos">
             <div class="cabecalho-sessao" data-aos="fade-up">
-                <h2>Meus <span>Trabalhos</span> Recentes</h2>
+                <h2>Meus Projetos</h2>
                 <p>Confira alguns dos meus projetos mais recentes e veja o que posso construir para você.</p>
             </div>
 
             <div class="container-filtro" data-aos="fade-up" data-aos-delay="100">
-                <button class="botao-filtro active" data-filter="all">Todos</button>
-                <button class="botao-filtro" data-filter="development">Desenvolvimento</button>
+                <button class="botao-filtro active" data-filter="todos">Todos</button>
+                <button class="botao-filtro" data-filter="desenvolvimento">Desenvolvimento</button>
+                <button class="botao-filtro" data-filter="automacao">Automação</button>
                 <button class="botao-filtro" data-filter="ui-ux">UI/UX</button>
-                <button class="botao-filtro" data-filter="web-design">Web Design</button>
+                <button class="botao-filtro" data-filter="desenvolvimento-web">Desenvolvimento Web</button>
             </div>
 
             <div class="grade-portfolio">
-                <div class="item-portfolio" data-category="development" data-aos="zoom-in" data-aos-delay="200">
+                <div class="item-portfolio" data-category="desenvolvimento-web" data-aos="zoom-in" data-aos-delay="200">
                     <div class="imagem-item">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+                        <img src="./images/projects/SIte Aula - Deadpool.png"
                             alt="E-Commerce">
                         <div class="sobreposicao-item">
-                            <a href="#" class="icone-sobreposicao">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            <a href="https://lanaatech.github.io/deadpool-tribute-page/" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                     <polyline points="15 3 21 3 21 9"></polyline>
                                     <line x1="10" y1="14" x2="21" y2="3"></line>
                                 </svg>
                             </a>
-                            <a href="#" class="icone-sobreposicao">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            <a href="https://github.com/lanaatech/deadpool-tribute-page" target="_blank" class="icone-sobreposicao">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="detalhes-item">
+                        <span class="categoria-item">Desenvolvimento Web</span>
+                        <h3>Site DeeadPool</h3>
+                        <p>Uma solução moderna com checkout fluido e gestão de estoque.</p>
+                    </div>
+                </div>
+
+                <div class="item-portfolio" data-category="ui-ux" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="imagem-item">
+                        <img src="./images/projects/CardInterativoRed.png"
+                            alt="E-Commerce">
+                        <div class="sobreposicao-item">
+                            <a href="#" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                            <a href="#" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="detalhes-item">
+                        <span class="categoria-item">UI/UX</span>
+                        <h3>Card Interativo</h3>
+                        <p>Uma solução moderna com checkout fluido e gestão de estoque.</p>
+                    </div>
+                </div>
+
+                <div class="item-portfolio" data-category="desenvolvimento-web" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="imagem-item">
+                        <img src="./images/projects/Landing Page Simples (tema orange).png"
+                            alt="E-Commerce">
+                        <div class="sobreposicao-item">
+                            <a href="#" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                            <a href="#" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="detalhes-item">
+                        <span class="categoria-item">Desenvolvimento</span>
+                        <h3>Landing Page</h3>
+                        <p>Uma solução moderna com checkout fluido e gestão de estoque.</p>
+                    </div>
+                </div>
+                <div class="item-portfolio" data-category="desenvolvimento" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="imagem-item">
+                        <img src="./images/projects/BetSim.png"
+                            alt="E-Commerce">
+                        <div class="sobreposicao-item">
+                            <a href="https://lanaatech.github.io/betting-house-project/" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lanaatech/betting-house-project" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="detalhes-item">
+                        <span class="categoria-item">Desenvolvimento</span>
+                        <h3>Plataforma de Apostas</h3>
+                        <p>Uma solução moderna com checkout fluido e gestão de estoque.</p>
+                    </div>
+                </div>
+
+                <div class="item-portfolio" data-category="automacao" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="imagem-item">
+                        <img src="./images/projects/Gerenciador-de-tasks.png"
+                            alt="E-Commerce">
+                        <div class="sobreposicao-item">
+                            <a href="https://lanaatech.github.io/task-master-pro" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lanaatech/task-master-pro" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="detalhes-item">
+                        <span class="categoria-item">Desenvolvimento</span>
+                        <h3>Gerenciador de Tasks</h3>
+                        <p>Uma solução moderna com checkout fluido e gestão de estoque.</p>
+                    </div>
+                </div>
+
+                <div class="item-portfolio" data-category="desenvolvimento" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="imagem-item">
+                        <img src="./images/projects/Gerenciador-de-tasks.png"
+                            alt="E-Commerce">
+                        <div class="sobreposicao-item">
+                            <a href="https://lanaatech.github.io/task-master-pro/" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lanaatech/task-master-pro" class="icone-sobreposicao" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff"
                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path
                                         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
@@ -132,68 +256,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grade-portfolio">
-                <div class="item-portfolio" data-category="development" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="imagem-item">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
-                            alt="E-Commerce">
-                        <div class="sobreposicao-item">
-                            <a href="#" class="icone-sobreposicao">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                    <polyline points="15 3 21 3 21 9"></polyline>
-                                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                                </svg>
-                            </a>
-                            <a href="#" class="icone-sobreposicao">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path
-                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="detalhes-item">
-                        <span class="categoria-item">Desenvolvimento</span>
-                        <h3>Plataforma E-Commerce</h3>
-                        <p>Uma solução moderna com checkout fluido e gestão de estoque.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="grade-portfolio">
-                <div class="item-portfolio" data-category="development" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="imagem-item">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
-                            alt="E-Commerce">
-                        <div class="sobreposicao-item">
-                            <a href="#" class="icone-sobreposicao">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                    <polyline points="15 3 21 3 21 9"></polyline>
-                                    <line x1="10" y1="14" x2="21" y2="3"></line>
-                                </svg>
-                            </a>
-                            <a href="#" class="icone-sobreposicao">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path
-                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="detalhes-item">
-                        <span class="categoria-item">Desenvolvimento</span>
-                        <h3>Plataforma E-Commerce</h3>
-                        <p>Uma solução moderna com checkout fluido e gestão de estoque.</p>
-                    </div>
-                </div>
-            </div>
+            
         </section>
 
         <footer id="contato" class="rodape">
@@ -204,20 +267,19 @@
                         <p>Estou disponível para novos desafios e parcerias estratégicas. <br>
                             Vamos transformar sua ideia em uma solução escalável!</p>
                     </div>
-                    <div class="rodape-acao-chamada">
+                    <div class="btn">
                         <a href="mailto:seuemail@exemplo.com" class="btn-amarelo">Fale Comigo</a>
                     </div>
                 </div>
 
-                <div class="divisor-rodape"></div>
 
                 <div class="rodape-base">
                     <div class="copy-rodape">
                         <p>&copy; 2026 Lanaatech. Todos os direitos reservados.</p>
                     </div>
                     <div class="redes-sociais-rodape">
-                        <a href="https://linkedin.com/in/ilana-nascimento" class="icone-social" aria-label="LinkedIn">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        <a href="https://www.linkedin.com/in/lanaatech/" class="icone-social" aria-label="LinkedIn" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path
                                     d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
@@ -226,16 +288,16 @@
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
                         </a>
-                        <a href="https://github.com/ilana-nascimento" class="icone-social" aria-label="GitHub">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        <a href="https://github.com/lanaatech" class="icone-social" aria-label="GitHub" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path
                                     d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                 </path>
                             </svg>
                         </a>
-                        <a href="https://instagram.com/lanaatech" class="icone-social" aria-label="Instagram">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        <a href="https://instagram.com/lanaatech" class="icone-social" aria-label="Instagram" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
